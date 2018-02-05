@@ -326,3 +326,70 @@ doc -- 属性描述信息
 新式类属性    
 ####52、range(stop)
 ####　　range(start, stop[, step])
+创建一个整数列表，一般用在for循环中                            
+**参数**                  
+start -- 计数从start开始。默认从0开始。                              
+stop -- 计数到stop结束，但不包括stop。                                    
+step -- 步长，默认为1 
+
+####53、raw_input([prompt])
+用来获取控制台的输入。raw_input()将所有输入作为字符串看待，返回字符串类型               
+####54、reduce(funtion, iterable[, initializer])
+对参数序列中元素进行累积.用传给reduce中的函数function（有两个参数）先对集合中的第1、2个元素进行操作，得到的结果在与第三个数据用fucntion运算，最后得到一个结果。                  
+**参数**                             
+function -- 函数，有两个参数                       
+iterable -- 可迭代对象                     
+initializer -- 可选，初始参数                      
+**返回值**                                       
+返回函数计算结果
+####55、reload(module)
+从新载入之前载入的模块                               
+**参数**                          
+module -- 模块对象
+####56、repr(object)
+将对象转化为供解释器读取的对象             
+**参数**                     
+object -- 对象                              
+**返回值**                           
+一个对象的string格式
+####57、reversed()
+用于反向列表中元素         
+####58、round(x [, n])
+返回浮点数的四舍五入值                          
+**参数**                   
+x -- 数值表达式                             
+n -- 数值表达式                   
+**返回值**                        
+返回浮点数的四舍五入值
+####59、set([iterable])
+创建一个无序不重复元素集，可进行关系测试，删除重复数据，还可以计算交集，差集，并集等。                  
+**参数**                  
+iterable -- 可迭代对象                                 
+**返回值**                                
+新的集合对象
+####60、setattr(object, name, value)
+设置属性值，该属性必须存在                         
+**参数**                                
+object -- 对象                      
+name -- 字符串，对象属性                        
+value -- 属性值                     
+**返回值**                              
+无
+####61、slice(stop)
+####　　slice(start, stop[, step])
+实现切片对象，主要用在切片操作函数里的参数传递                        
+**参数**                                
+start -- 起始位置                           
+stop -- 结束位置                             
+step -- 间距                                    
+**返回值**                              
+一个切片对象
+####62、sorted(iterable[, cmp[, key[, reverse]]])
+对所以可迭代对象进行排序操作                                      
+**参数**                       
+iterable -- 可迭代对象                            
+cmp -- 比较函数                             
+key -- 主要用来比较的元素                         
+reverse -- 排序规则， True- 降序； False - 升序                                
+**返回值**                                                 
+重新排序的列表
